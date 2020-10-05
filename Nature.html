@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .nav {
+        position: absolute;
+        color: white;
+        display: flex;
+        right: 80px;
+      }
+      .nav_item {
+        padding: 20px;
+      }
+      .main {
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="Flower - 26790.mp4" type="video/mp4">
+      </video>
+      <div class="main">Nature</div>
+      <div class="nav">
+        <div class="nav_item">New In</div>
+        <div class="nav_item">Rug</div>
+        <div class="nav_item">Bedding</div>
+        <div class="nav_item">Wear</div>
+        <div class="nav_item">Book</div>
+      </div>
+  </body>
+</html>
