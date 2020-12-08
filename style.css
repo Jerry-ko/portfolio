@@ -1,0 +1,110 @@
+body, html {
+    height: 1800px;
+    color: #2d3436;
+  }
+
+
+  .main {
+    margin: 40px;
+    margin-top:80px;
+  }
+
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+  }
+
+  .subtitle {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .title_sub {
+      margin-top: 100px;
+      margin-bottom: 20px;
+  }
+
+  .subtitle, .contact, .project, .channel {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 120px;
+  }
+
+
+  .subtitle, .contact, .channel {
+    padding-bottom: 30px;
+  }
+
+  .project {
+    padding-bottom: 20px;
+  }
+
+  .ex_1 {
+    line-height: 150%;
+  }
+
+  .item1, .item2, .item3 {
+    padding-bottom: 5px;
+  }
+
+  .item1 a {
+      color: black;
+  }
+
+  li, .ex_1, .ex_2, .item3 {
+    font-size: 20px;
+  }
+
+  li {
+    padding-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    padding-left: 50px;
+  }
+
+  @media screen and (min-width: 1000px) {
+      body {
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+  }
+
+  .title_sub i {
+      color: green;
+  }
+
+  .item3_section {
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  .item3 i {
+      padding-right: 15px;
+  }
+
+  a:link {
+      color: black;
+  }
+  a:hover {
+      color: tan;
+  }
+
+  a:visited {
+      color: gray;
+  }
+
+  .symbol {
+      position: fixed;
+      color: red;
+      bottom: 80px;
+      padding-left: 30%;
+  }

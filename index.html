@@ -4,85 +4,19 @@
     <title>Minju | 민주의 포트폴리오</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body, html {
-        height: 1800px;
-        color: #2d3436;
-      }
-
-
-      .main {
-        margin: 40px;
-        margin-top:80px;
-      }
-
-      .title {
-        font-size: 50px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-
-      .subtitle {
-        padding-top: 60px;
-        padding-bottom: 30px;
-      }
-
-      .subtitle, .contact, .project, .channel {
-        font-size: 30px;
-        font-weight: bold;
-        padding-top: 120px;
-      }
-
-
-      .subtitle, .contact, .channel {
-        padding-bottom: 30px;
-      }
-
-      .project {
-        padding-bottom: 20px;
-      }
-
-      .ex_1 {
-        line-height: 150%;
-      }
-
-      .item1, .item2, .item3 {
-        padding-bottom: 5px;
-      }
-
-      li, .ex_1, .ex_2, .item3 {
-        font-size: 20px;
-      }
-
-      li {
-        padding-bottom: 30px;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      footer {
-        position: fixed;
-        bottom: 0;
-        padding-left: 50px;
-      }
-
-      @media screen and (min-width: 1000px) {
-          body {
-            margin-left: 20%;
-            margin-right: 20%;
-          }
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
   </head>
 
   <body>
       <div id="box"></div>
       <div class="main">
         <div class="title">Minju | 민주의 포트폴리오</div>
-        <div class="subtitle">프론트엔드 개발자</div>
+        <div class="title_sub">
+          <i class="fas fa-seedling fa-2x"></i>
+          <span class="subtitle"> 프론트엔드 개발자</span>
+        </div>
+
         <div class="ex_1">
           감각적인 서비스를 만들고 싶은 신입 프론트엔드 개발자입니다.
           문제를 해결하는 데 있어 끈질긴 열정을 갖추고 있습니다.
@@ -97,7 +31,10 @@
         </div>
         <div class="channel">Channel.</div>
           <div class="item3">
-            <b>GitHub.</b> <a href="https://github.com/Jerry-ko">github.com/Jerry-ko</a></div>
+            <div class="item3_section">
+              <i class="fab fa-github fa-2x"></i> 
+              <a href="https://github.com/Jerry-ko">github.com/Jerry-ko</a></div>
+            </div>
 
         <div class="project">Project</div>
           <ol>
@@ -108,7 +45,11 @@
             <li><a href="https://jerry-ko.github.io/portfolio/Nature">Nature</a></li>
             <li><a href="https://jerry-ko.github.io/portfolio/Login">RWD: Log In</a></li>
             <li><a href="https://jerry-ko.github.io/javascript_todolist/">RWD: To-Do!</a></li>
+            <li><a href="https://jerry-ko.github.io/kakaotalk_clone/">Kakaotalk</a></li>
           </ol>
+        </div>
+        <div class="symbol">
+          <i class="fas fa-fire fa-3x symbol"></i>
         </div>
         <footer>
           <p>Copyright © Minju.ko 2020</p>
